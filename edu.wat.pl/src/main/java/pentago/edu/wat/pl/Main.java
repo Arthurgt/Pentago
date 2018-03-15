@@ -2,7 +2,7 @@ package pentago.edu.wat.pl;
 
 import java.awt.EventQueue;
 
-public class Test 
+public class Main 
 {
     public static void main(String[] args) 
     {
