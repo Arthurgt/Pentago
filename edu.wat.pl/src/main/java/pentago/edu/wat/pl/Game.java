@@ -26,6 +26,7 @@ public final class Game
     public Color KPlansza4[][] = new Color[3][3];
     public Color KCalaPlansza[][] = new Color[6][6];
     private JButton Obrotl1, Obrotp1, Obrotl2, Obrotp2, Obrotl3, Obrotp3, Obrotl4, Obrotp4;
+    public int reset = 0;
 	   
 	public static Game getInstance()
 	{
@@ -426,6 +427,22 @@ public final class Game
 		
 		licznikn = 0;
 		licznikc = 0;
+		for(int i=0; i <5 ; i++)
+		{
+			for(int j=0; j<5 ; j++)
+			{
+				if(KCalaPlansza[i][j] != Color.WHITE && 4==j+i)
+				{
+					if(KCalaPlansza[i][j]==Color.BLUE) licznikn++;
+					else if(KCalaPlansza[i][j]==Color.RED) licznikc++;
+					if(licznikn==5) wygrana=1;
+					if(licznikc==5) wygrana=2;
+				}
+			}
+		}
+		
+		licznikn = 0;
+		licznikc = 0;
 		for(int i=1; i <6 ; i++)
 		{
 			for(int j=0; j<5 ; j++)
@@ -479,6 +496,17 @@ public final class Game
 		if(wszystkie==true && wygrana==0)
 		{
 			wygrana=3;
+		}
+	}
+	
+	public void reset()
+	{
+		if(reset==1)
+		{
+			wypelnijPlansze();
+			wygrana =0;
+			faza =0;
+			reset=0;
 		}
 	}
 }

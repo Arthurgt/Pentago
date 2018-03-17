@@ -6,12 +6,14 @@ import javax.swing.JFrame;
 
 public class MyFrame extends JFrame 
 {
- 
+	public Color[] skin = {Color.BLACK,Color.GREEN,Color.MAGENTA};
+	public static int wskin=0;
+	
     public MyFrame() 
     {
     	JFrame frame = new JFrame("Pentago");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        MyPannel newContentPane = new MyPannel(frame);
+        MyPannel newContentPane = new MyPannel(frame, wskin);
         newContentPane.setOpaque(true); 
         frame.setContentPane(newContentPane);
         frame.pack();
@@ -19,6 +21,6 @@ public class MyFrame extends JFrame
         frame.setSize(1000, 700);
         frame.setLocation(200,10);
         frame.setResizable(false);
-        frame.getContentPane().setBackground(Color.BLACK);
+        frame.getContentPane().setBackground(skin[wskin]);
     }
 }
