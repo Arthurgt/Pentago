@@ -28,13 +28,15 @@ import javax.swing.SpringLayout;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-public class MenuPannel extends JPanel implements ActionListener, MouseListener, MouseMotionListener 
+public class PannelMenu extends JPanel implements ActionListener, MouseListener, MouseMotionListener 
 {
     public static JFrame okno;
     public int stworzone=0;
-    public JButton Start, Skorki, Koniec, Wyniki;
-    public static int jezyk=0;
+    public JButton Start, Skorki, Koniec, Wyniki, Pomoc;
+    public MyButton przyciskk;
+    public static int jezyk;
     private String[] s = {"Graj", "Play"};
+    private String[] p = {"Pomoc", "Help"};
     private String[] k = {"Wyjdz", "Exit"};
     private String[] z = {"Skorki", "Skins"};
     private String[] w = {"Wyniki", "Scores"};
@@ -53,7 +55,7 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
     private Image image;
     public int i=0;
 
-	public MenuPannel(JFrame fr, Image image) 
+	public PannelMenu(JFrame fr, Image image) 
 	{
 		this.image = image;
 		this.okno=fr;
@@ -66,8 +68,8 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 	    menu = new JMenu(minimenu[jezyk]);
 	    PasekMenu.add(menu);
 	    submenu = new JMenu(mmo1[jezyk]);
-	    LanguageAction polski = new LanguageAction(spolski[jezyk]);
-	    LanguageAction angielski = new LanguageAction(sangielski[jezyk]);
+	    ActionLanguage polski = new ActionLanguage(spolski[jezyk]);
+	    ActionLanguage angielski = new ActionLanguage(sangielski[jezyk]);
 	    jeden = new JMenuItem(polski);
 	    submenu.add(jeden);
 	    drugi = new JMenuItem(angielski);
@@ -87,12 +89,12 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 		}
 		else if(source==Skorki)
 		{
-			LookAndFeel.initLookAndFeel();
+			ZLookAndFeel.initLookAndFeel();
 			EventQueue.invokeLater(new Runnable() 
 	        {
 	            public void run() 
 	            {
-	                new MyMenu();
+	                new FrameMenu();
 	            }
 	        });
 			okno.dispose();
@@ -103,7 +105,18 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 	        {
 	            public void run() 
 	            {
-	                new MyFrame();
+	                new FrameGame();
+	            }
+	        });
+			okno.dispose();
+		}
+		else if(source==Pomoc)
+		{
+			EventQueue.invokeLater(new Runnable() 
+	        {
+	            public void run() 
+	            {
+	                new FrameHelp();
 	            }
 	        });
 			okno.dispose();
@@ -114,6 +127,7 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 	public void paint (Graphics g)
 	{
 		super.paint(g);
+		jezyk = ZProperties.getjezyk();
 		if(stworzone==0)
 		{
 	    Dimension rozmiar = new Dimension(200,100);
@@ -129,14 +143,14 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 		
 		 ogranicznik.gridx = 1;
 		 
-		SkinAction noy = new SkinAction();
+		ActionSkin noy = new ActionSkin();
 		Skorki = new JButton(noy);
 		Skorki.setPreferredSize(rozmiar);
 		Skorki.addActionListener(this);
 		add(Skorki, ogranicznik);
 		
 		ogranicznik.gridx = 0;
-		ogranicznik.gridy = 1;
+		ogranicznik.gridy = 2;
 		
 		Koniec = new JButton(k[jezyk]);
 		Koniec.setPreferredSize(rozmiar);
@@ -150,6 +164,15 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 		Wyniki.setPreferredSize(rozmiar);
 		Wyniki.addActionListener(this);
 		add(Wyniki, ogranicznik);
+		
+		ogranicznik.gridx = 0;
+		ogranicznik.gridy = 1;
+		
+		Pomoc = new JButton(p[jezyk]);
+		Pomoc.setPreferredSize(rozmiar);
+		Pomoc.addActionListener(this);
+		add(Pomoc, ogranicznik);
+		
 		stworzone=1;
 		}
 		g.drawImage(image, 0, 0, this);
@@ -161,6 +184,7 @@ public class MenuPannel extends JPanel implements ActionListener, MouseListener,
 	    Koniec.setText(k[jezyk]);
 	    Skorki.setText(z[jezyk]);
 	    Wyniki.setText(w[jezyk]);
+	    Pomoc.setText(p[jezyk]);
 	}
 
 

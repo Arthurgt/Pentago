@@ -21,11 +21,11 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.SpringLayout;
 
-public class MyPannel extends JPanel implements ActionListener, MouseListener, MouseMotionListener 
+public class PannelGame extends JPanel implements ActionListener, MouseListener, MouseMotionListener 
 {
     public static JFrame okno;
     public JPanel panel;
-    public static int jezyk=0;
+    public static int jezyk;
     private JButton Obrotl1, Obrotp1, Obrotl2, Obrotp2, Obrotl3, Obrotp3, Obrotl4, Obrotp4; // przyciski do obrotu planszy
     public Color[] skin = {Color.BLACK,Color.GREEN,Color.MAGENTA};
 	public static int wskin;
@@ -66,9 +66,9 @@ public class MyPannel extends JPanel implements ActionListener, MouseListener, M
     public int stworzone=0;
  
     
-    public static Game gra = Game.getInstance(); // pobranie instancji klasy Game(singleton)
+    public static ZGame gra = ZGame.getInstance(); // pobranie instancji klasy Game(singleton)
 
-	public MyPannel(JFrame fr, int skiin) 
+	public PannelGame(JFrame fr, int skiin) 
 	{
 		this.okno=fr; 
 		this.wskin=skiin;
@@ -86,6 +86,7 @@ public class MyPannel extends JPanel implements ActionListener, MouseListener, M
 	public void paint (Graphics g)
 	{	
 		super.paint(g);
+		jezyk = ZProperties.getjezyk();
 		if(stworzone==0)
 		{
 			
@@ -97,9 +98,9 @@ public class MyPannel extends JPanel implements ActionListener, MouseListener, M
 			    menu = new JMenu(minimenu[jezyk]);
 			    PasekMenu.add(menu);
 			    submenu = new JMenu(mmo1[jezyk]);
-			    LanguageAction polski = new LanguageAction(spolski[jezyk]);
-			    LanguageAction angielski = new LanguageAction(sangielski[jezyk]);
-			    MenuAction menuu = new MenuAction("Menu", okno);
+			    ActionLanguage polski = new ActionLanguage(spolski[jezyk]);
+			    ActionLanguage angielski = new ActionLanguage(sangielski[jezyk]);
+			    ActionMenu menuu = new ActionMenu("Menu", okno);
 			    jeden = new JMenuItem(polski);
 			    submenu.add(jeden);
 			    drugi = new JMenuItem(angielski);

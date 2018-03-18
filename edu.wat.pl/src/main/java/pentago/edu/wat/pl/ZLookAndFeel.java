@@ -6,12 +6,12 @@ import javax.swing.plaf.metal.DefaultMetalTheme;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.plaf.metal.OceanTheme;
 
-public class LookAndFeel 
+public class ZLookAndFeel 
 {
-	public static int i=1;
+	public static int i=0;
 	public static void initLookAndFeel() 
 	{
-		
+		i = ZProperties.getlookifeel();
             if (i==0) 
             {
             	try 

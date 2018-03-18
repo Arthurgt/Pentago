@@ -10,13 +10,14 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.SpringLayout;
 
-public class MyMenu extends JFrame 
+public class FrameMenu extends JFrame 
 {
 	public String[] skin = {"1.png","2.png","3.png"};
-	public static int wskin=0;
+	public static int wskin;
 	
-    public MyMenu() 
+    public FrameMenu() 
     {
+    	wskin=ZProperties.getwskin();
     	BufferedImage myImage = null;
 		try 
 		{
@@ -27,7 +28,7 @@ public class MyMenu extends JFrame
 		}
     	JFrame frame = new JFrame("Pentago");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        MenuPannel newContentPane = new MenuPannel(frame, myImage);
+        PannelMenu newContentPane = new PannelMenu(frame, myImage);
         newContentPane.setOpaque(true); 
         frame.setContentPane(newContentPane);
         frame.pack();

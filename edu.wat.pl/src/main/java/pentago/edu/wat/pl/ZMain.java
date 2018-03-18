@@ -5,7 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-public class Main 
+public class ZMain 
 {
     public static void main(String[] args) 
     {
@@ -13,7 +13,7 @@ public class Main
         {
             public void run() 
             {
-                new MyMenu();
+                new FrameMenu();
             }
         });
     }

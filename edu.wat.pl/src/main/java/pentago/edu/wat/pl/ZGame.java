@@ -5,10 +5,10 @@ import java.awt.Point;
 
 import javax.swing.JButton;
 
-public final class Game 
+public final class ZGame 
 {
 	    
-	private final static Game instancja = new Game();
+	private final static ZGame instancja = new ZGame();
 	public int wygrana=0;
     public boolean gracz=false;
     public int faza = 0;
@@ -28,12 +28,12 @@ public final class Game
     private JButton Obrotl1, Obrotp1, Obrotl2, Obrotp2, Obrotl3, Obrotp3, Obrotl4, Obrotp4;
     public int reset = 0;
 	   
-	public static Game getInstance()
+	public static ZGame getInstance()
 	{
 		return instancja;
 	}
 
-	private Game() 
+	private ZGame() 
 	{
 	    	
 	}

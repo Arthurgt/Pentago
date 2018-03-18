@@ -6,12 +6,12 @@ import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import javax.swing.JFrame;
 
-public class MenuAction extends AbstractAction 
+public class ActionMenu extends AbstractAction 
 {
 	public String jezyk;
 	public JFrame frame;
 
-	public MenuAction(String text, JFrame frame)
+	public ActionMenu(String text, JFrame frame)
 	{
 		super(text);
 		this.jezyk=text;
@@ -24,11 +24,11 @@ public class MenuAction extends AbstractAction
         {
             public void run() 
             {
-                new MyMenu();
+                new FrameMenu();
             }
         });
-		MyPannel.gra.reset=1;
-		MyPannel.okno.dispose();	
+		PannelGame.gra.reset=1;
+		PannelGame.okno.dispose();	
 	}
 
 }
