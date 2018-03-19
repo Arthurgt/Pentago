@@ -11,6 +11,7 @@ public class ZMain
 {
     public static void main(String[] args) 
     {
+    	ZxmlParser.Parse();
         EventQueue.invokeLater(new Runnable() 
         {
             public void run() 

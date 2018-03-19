@@ -18,11 +18,10 @@ public class ZDataBase
 
 	 public static Connection connect() throws SQLException, FileNotFoundException // metoda do łączenia się za bazą
 	 {
-		 	File file = new File("dane.txt");
-	    	Scanner in = new Scanner(file);
-	    	url = in.nextLine();
-	    	user = in.nextLine();
-	    	password = in.nextLine();	
+		 	ZxmlParser.Parse();
+		 	url = ZxmlParser.getUrl();
+		 	user = ZxmlParser.getUser();
+		 	password = ZxmlParser.getPassword();
  
 	        Connection conn = null;
 	        try 
