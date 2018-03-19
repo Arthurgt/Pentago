@@ -12,7 +12,7 @@ public class ActionSkin extends AbstractAction
 	
 	public ActionSkin()
 	{
-		
+		i = ZProperties.geti();
 	}
 	
 	public void actionPerformed(ActionEvent e) 
@@ -21,19 +21,19 @@ public class ActionSkin extends AbstractAction
 		{
 			ZProperties.saveProperties("wskin","0");
 			ZProperties.saveProperties("lookifeel","0");
-			i=1;
+			ZProperties.saveProperties("i","1");
 		}
 		else if(i==1)
 		{
 			ZProperties.saveProperties("wskin","1");
 			ZProperties.saveProperties("lookifeel","1");
-			i=2;
+			ZProperties.saveProperties("i","2");
 		}
 		else if(i==2)
 		{
 			ZProperties.saveProperties("wskin","2");
 			ZProperties.saveProperties("lookifeel","2");
-			i=0;
+			ZProperties.saveProperties("i","0");
 		}
 	}
 }

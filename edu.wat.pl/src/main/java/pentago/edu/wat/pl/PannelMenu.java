@@ -44,6 +44,7 @@ public class PannelMenu extends JPanel implements ActionListener, MouseListener,
     private String[] mmo1 = {"Jezyk", "Language"};
     private String[] spolski = {"Polski", "Polish"};
     private String[] sangielski = {"Angielski", "English"};
+    public ZGetTime plczas;
     
     private JMenuBar PasekMenu; // menu podreczne
     private JMenu menu, submenu;
@@ -63,6 +64,8 @@ public class PannelMenu extends JPanel implements ActionListener, MouseListener,
 	    addMouseMotionListener(this);
 	    GridBagLayout layout = new GridBagLayout();
 	    setLayout(layout);
+	    plczas=new ZGetTime("","");
+		plczas.execute();
 	    
 	    PasekMenu = new JMenuBar();
 	    menu = new JMenu(minimenu[jezyk]);
@@ -105,7 +108,7 @@ public class PannelMenu extends JPanel implements ActionListener, MouseListener,
 	        {
 	            public void run() 
 	            {
-	                new FrameGame();
+	                new FrameLogin();
 	            }
 	        });
 			okno.dispose();
@@ -117,6 +120,17 @@ public class PannelMenu extends JPanel implements ActionListener, MouseListener,
 	            public void run() 
 	            {
 	                new FrameHelp();
+	            }
+	        });
+			okno.dispose();
+		}
+		else if(source==Wyniki)
+		{
+			EventQueue.invokeLater(new Runnable() 
+	        {
+	            public void run() 
+	            {
+	                new FrameScores();
 	            }
 	        });
 			okno.dispose();

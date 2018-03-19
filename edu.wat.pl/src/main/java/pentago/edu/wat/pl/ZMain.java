@@ -1,6 +1,8 @@
 package pentago.edu.wat.pl;
 
 import java.awt.EventQueue;
+import java.io.FileNotFoundException;
+import java.sql.SQLException;
 
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;

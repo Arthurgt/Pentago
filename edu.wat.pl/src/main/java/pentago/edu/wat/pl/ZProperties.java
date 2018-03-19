@@ -59,6 +59,13 @@ public class ZProperties
         return Integer.parseInt(pt.properties.getProperty("lookifeel"));
     }
     
+    public static int geti()
+    {
+    	System.setProperty("file.encoding", "UTF-8"); 
+        pt.loadProperties();
+        return Integer.parseInt(pt.properties.getProperty("i"));
+    }
+    
     public static void saveProperties(String key, String value)
     {
         OutputStream os;

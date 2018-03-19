@@ -4,17 +4,17 @@ import java.awt.Color;
 
 import javax.swing.JFrame;
 
-public class FrameGame extends JFrame 
+public class FrameLogin extends JFrame 
 {
 	public Color[] skin = {Color.BLACK,Color.GREEN,Color.MAGENTA};
 	public static int wskin;
 	
-    public FrameGame(String nick1, String nick2) 
+    public FrameLogin() 
     {
     	wskin=ZProperties.getwskin();
     	JFrame frame = new JFrame("Pentago");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        PannelGame newContentPane = new PannelGame(frame, wskin, nick1, nick2);
+        PannelLogin newContentPane = new PannelLogin(frame);
         newContentPane.setOpaque(true); 
         frame.setContentPane(newContentPane);
         frame.pack();

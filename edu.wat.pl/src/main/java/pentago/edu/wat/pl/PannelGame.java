@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
+import java.io.FileNotFoundException;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBoxMenuItem;
@@ -29,13 +30,14 @@ public class PannelGame extends JPanel implements ActionListener, MouseListener,
     private JButton Obrotl1, Obrotp1, Obrotl2, Obrotp2, Obrotl3, Obrotp3, Obrotl4, Obrotp4; // przyciski do obrotu planszy
     public Color[] skin = {Color.BLACK,Color.GREEN,Color.MAGENTA};
 	public static int wskin;
+	public ZDataBase lacz;
     
     private String[] gr1 = {"Gracz 1", "Player1"};
     private String[] gr2 = {"Gracz 2", "Player2"};
     private String[] r1 = {"Ruch pionka", "Pawn's move"};
     private String[] o1 = {"Obrot planszy", "Rotation of the board"};
-    private String[] wn = {"Wygral gracz pierwszy!", "The Player 1 won"};
-    private String[] wc = {"Wygral gracz drugi!", "The Player 2 won"};
+    private String[] wn = {"Wygral gracz1", "The Player 1 won"};
+    private String[] wc = {"Wygral gracz2", "The Player 2 won"};
     private String[] r = {"Remis!", "Draw!"};
     private String[] k1 = {"Lewo", "Left"};
     private String[] k2 = {"Prawo", "Right"};
@@ -43,6 +45,8 @@ public class PannelGame extends JPanel implements ActionListener, MouseListener,
     private String[] mmo1 = {"Jezyk", "Language"};
     private String[] spolski = {"Polski", "Polish"};
     private String[] sangielski = {"Angielski", "English"};
+    private String nick1;
+    private String nick2;
     
     private JLabel gracz1 = new JLabel(gr1[jezyk]); // Napisy do interfejsu gry
     private JLabel gracz2 = new JLabel(gr2[jezyk]);
@@ -68,10 +72,12 @@ public class PannelGame extends JPanel implements ActionListener, MouseListener,
     
     public static ZGame gra = ZGame.getInstance(); // pobranie instancji klasy Game(singleton)
 
-	public PannelGame(JFrame fr, int skiin) 
+	public PannelGame(JFrame fr, int skiin, String nick1, String nick2) 
 	{
 		this.okno=fr; 
 		this.wskin=skiin;
+		this.nick1=nick1;
+		this.nick2=nick2;
 	}
 
 
@@ -164,13 +170,13 @@ public class PannelGame extends JPanel implements ActionListener, MouseListener,
 		        Font font2 = new Font ("Garamond", style, 30);
 				
 		        //ustawienie interfejsu gry
-		        gracz1 = new JLabel(gr1[jezyk]);
+		        gracz1 = new JLabel(nick1);
 		        gracz1.setFont(font);
 		        layout.putConstraint(SpringLayout.WEST, gracz1, 620, SpringLayout.WEST, this);
 				layout.putConstraint(SpringLayout.NORTH, gracz1, 40, SpringLayout.NORTH, this);	
 				add(gracz1);
 				
-				gracz2 = new JLabel(gr2[jezyk]);
+				gracz2 = new JLabel(nick2);
 				layout.putConstraint(SpringLayout.WEST, gracz2, 620, SpringLayout.WEST, this);
 				layout.putConstraint(SpringLayout.NORTH, gracz2, 330, SpringLayout.NORTH, this);	
 		        gracz2.setFont(font);
@@ -227,8 +233,6 @@ public class PannelGame extends JPanel implements ActionListener, MouseListener,
 		Obrotp2.setText(k2[jezyk]);
 		Obrotp3.setText(k2[jezyk]);
 		Obrotp4.setText(k2[jezyk]);
-		gracz1.setText(gr1[jezyk]);
-		gracz2.setText(gr2[jezyk]);
 		ruch1.setText(r1[jezyk]);
 	    ruch2.setText(r1[jezyk]);
 	    obrot1.setText(o1[jezyk]);
@@ -352,23 +356,53 @@ public class PannelGame extends JPanel implements ActionListener, MouseListener,
 			}
 		}
 		
-		if(gra.wygrana==1)
+		if(gra.wygrana==1 && gra.juz==0)
 		{
 			wygralgN.setForeground(Color.BLUE);
+			try 
+			{
+				lacz.updateWin(nick1);
+				lacz.updateLose(nick2);
+				gra.juz = 1;
+			} 
+			catch (FileNotFoundException e) 
+			{
+				e.printStackTrace();
+			} 
 		}
-		else if(gra.wygrana==2)
+		else if(gra.wygrana==2 && gra.juz==0)
 		{
 			wygralgC.setForeground(Color.RED);
+			try 
+			{
+				lacz.updateWin(nick2);
+				lacz.updateLose(nick1);
+				gra.juz = 1;
+			} 
+			catch (FileNotFoundException e) 
+			{
+				e.printStackTrace();
+			} 
 		}
-		else if (gra.wygrana==0)
+		else if (gra.wygrana==0 && gra.juz==0)
 		{
 			wygralgN.setForeground(skin[wskin]);
 			wygralgC.setForeground(skin[wskin]);	
 			remis.setForeground(skin[wskin]);
 		}
-		else if(gra.wygrana==3)
+		else if(gra.wygrana==3 && gra.juz==0)
 		{
 			remis.setForeground(Color.ORANGE);
+			try 
+			{
+				lacz.updateDraw(nick1);
+				lacz.updateDraw(nick2);
+				gra.juz = 1;
+			} 
+			catch (FileNotFoundException e) 
+			{
+				e.printStackTrace();
+			} 
 		}
 		gra.reset();
 		}

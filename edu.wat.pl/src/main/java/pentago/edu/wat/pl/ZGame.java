@@ -27,7 +27,8 @@ public final class ZGame
     public Color KCalaPlansza[][] = new Color[6][6];
     private JButton Obrotl1, Obrotp1, Obrotl2, Obrotp2, Obrotl3, Obrotp3, Obrotl4, Obrotp4;
     public int reset = 0;
-	   
+    public int juz = 0;
+    
 	public static ZGame getInstance()
 	{
 		return instancja;
@@ -52,8 +53,9 @@ public final class ZGame
 	
 	public void przyciski(Object source)
 	{
-		if(faza == 1 && wygrana==0  )
+		try 
 		{
+			ZStanGry.czyObrot(faza, wygrana);
 			if(source == Obrotl1)
 			{
 				KPlansza1 = obrot1(KPlansza1);
@@ -114,12 +116,17 @@ public final class ZGame
 			gracz=!gracz;
 			faza=0;
 		}
+		catch (ExceptionNotRotate e)
+		{
+			e.printStackTrace();
+		}
 	}
 	
 	public void myszka(int x, int y)
 	{
-		if(faza==0)
+		try
 		{
+		ZStanGry.czyPionek(faza);
 		for(int i=0; i<3; i++)
 		{
 			for(int j=0; j<3; j++)
@@ -187,6 +194,10 @@ public final class ZGame
 				SprawdzWygrana();
 			}
 		}
+		}
+		catch (ExceptionNotMove e)
+		{
+		e.printStackTrace();
 		}
 	}
 	
@@ -507,6 +518,7 @@ public final class ZGame
 			wygrana =0;
 			faza =0;
 			reset=0;
+			juz=0;
 		}
 	}
 }
