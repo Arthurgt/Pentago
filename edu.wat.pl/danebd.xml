@@ -1,8 +1,8 @@
 <?xml version = "1.0"?>
 <class>
-   <bazakonto>
+   <baza>
       <url>jdbc:postgresql://localhost:5432/Pentago</url>
       <user>postgres</user>
       <password>postgres</password>
-   </bazakonto>
+   </baza>
 </class>

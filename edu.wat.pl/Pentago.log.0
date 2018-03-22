@@ -1,0 +1,862 @@
+mar 19, 2018 6:51:59 AM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 6:51:59 AM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:19:47 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 5:20:01 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 5:20:02 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:21:59 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:24:03 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 5:24:04 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:27:45 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 5:27:47 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:27:54 PM pentago.edu.wat.pl.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 19, 2018 5:27:57 PM pentago.edu.wat.pl.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 19, 2018 5:27:59 PM pentago.edu.wat.pl.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 19, 2018 5:28:00 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:28:13 PM pentago.edu.wat.pl.FrameHelp <init>
+INFO: Uruchomiono help
+mar 19, 2018 5:28:15 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:28:20 PM pentago.edu.wat.pl.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 19, 2018 5:28:24 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:28:27 PM pentago.edu.wat.pl.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 19, 2018 5:32:46 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 5:32:46 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:32:51 PM pentago.edu.wat.pl.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 19, 2018 5:32:53 PM pentago.edu.wat.pl.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 19, 2018 5:32:54 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:32:55 PM pentago.edu.wat.pl.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 19, 2018 5:32:56 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:32:58 PM pentago.edu.wat.pl.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 19, 2018 5:33:08 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:33:09 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:33:09 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:33:10 PM pentago.edu.wat.pl.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 19, 2018 5:34:04 PM pentago.edu.wat.pl.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 19, 2018 5:34:05 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:34:05 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:34:14 PM pentago.edu.wat.pl.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 19, 2018 5:34:24 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:37:08 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 19, 2018 5:37:09 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 19, 2018 5:37:15 PM pentago.edu.wat.pl.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 19, 2018 5:37:41 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:37:41 PM pentago.edu.wat.pl.ZDataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 19, 2018 5:37:41 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:37:42 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:37:42 PM pentago.edu.wat.pl.ZDataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 19, 2018 5:37:43 PM pentago.edu.wat.pl.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 19, 2018 5:37:43 PM pentago.edu.wat.pl.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 19, 2018 5:38:11 PM pentago.edu.wat.pl.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 19, 2018 5:38:14 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 6:48:13 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 20, 2018 6:48:14 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 6:48:18 PM pentago.edu.wat.pl.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 20, 2018 6:48:18 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 6:52:44 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 20, 2018 6:52:44 PM pentago.edu.wat.pl.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 6:52:46 PM pentago.edu.wat.pl.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 20, 2018 7:26:23 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 20, 2018 7:26:23 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 7:26:25 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 20, 2018 7:26:26 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 7:26:26 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 20, 2018 7:26:27 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 7:26:27 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 20, 2018 7:26:28 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 20, 2018 7:26:28 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 20, 2018 7:26:28 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:01:06 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:01:09 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:01:47 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:01:47 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:02:48 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:02:49 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:02:53 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:02:53 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:03:16 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:03:16 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:05:59 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:05:59 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:06:24 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:06:25 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:06:26 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:06:27 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:06:32 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:06:32 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:07:25 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:07:25 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:07:29 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:07:29 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:07:34 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:07:34 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:07:38 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:07:38 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:17 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:11:17 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:19 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:20 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:21 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:21 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:22 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:22 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:23 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:23 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:24 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:24 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:24 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:25 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:25 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:25 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:26 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:26 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:26 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:26 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:26 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:27 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:27 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:27 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:27 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:28 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:28 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:29 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:29 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:29 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:30 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:31 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:37 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:37 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:42 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:11:42 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:11:56 PM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 21, 2018 7:12:06 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:12:07 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:09 PM frames.FrameHelp <init>
+INFO: Uruchomiono help
+mar 21, 2018 7:12:15 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:16 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:12:17 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:17 PM frames.FrameHelp <init>
+INFO: Uruchomiono help
+mar 21, 2018 7:12:18 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:19 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:12:19 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:20 PM frames.FrameHelp <init>
+INFO: Uruchomiono help
+mar 21, 2018 7:12:21 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:21 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:12:21 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:22 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 7:12:23 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 7:12:24 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 7:12:24 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 7:12:25 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 7:12:26 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:29 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:12:30 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:31 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 7:12:32 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:12:36 PM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 21, 2018 7:12:38 PM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 21, 2018 7:12:42 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:12:43 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:13:28 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 7:13:28 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 7:13:29 PM panels.PannelMenu actionPerformed
+INFO: Zakonczono gre
+mar 21, 2018 8:08:29 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:08:30 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:08:32 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:08:33 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:08:34 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:08:34 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:08:34 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:09:30 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:09:31 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:09:33 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:09:33 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:09:34 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:09:34 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:09:34 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:11:00 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:11:01 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:11:02 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:11:03 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:11:03 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:11:03 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:11:04 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:01 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:13:02 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:13:03 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:13:04 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:04 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:04 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:04 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:18 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:13:19 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:13:20 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:13:21 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:21 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:21 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:21 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:33 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:13:34 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:13:35 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:13:35 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:36 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:36 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:13:36 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:14:37 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:14:38 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:14:39 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:14:40 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:14:41 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:14:41 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:14:41 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:15 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:15:15 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:15:17 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:15:17 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:17 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:18 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:18 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:37 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:15:38 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:15:39 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:15:40 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:40 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:41 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:15:41 PM swingworker.SWdatabaseGET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:17:30 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:17:31 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:17:32 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:17:33 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:17:33 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:17:33 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:17:33 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:17:41 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:25:59 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:26:00 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:26:02 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:26:10 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:26:10 PM database.ZDataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 21, 2018 8:26:10 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:26:11 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:26:11 PM database.ZDataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 21, 2018 8:26:12 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:26:12 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:26:50 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 21, 2018 8:26:54 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:27:00 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:27:01 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:01 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:01 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:02 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:05 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:27:06 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:27:10 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:11 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:11 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:27:20 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 21, 2018 8:27:23 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:27:24 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:27:30 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:32 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:32 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:27:42 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 21, 2018 8:27:45 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:27:49 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 8:27:49 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:50 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:50 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:27:51 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:31:20 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:31:22 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:31:24 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:31:29 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:31:30 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:31:30 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:31:44 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 2
+mar 21, 2018 8:31:50 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:39:39 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:39:40 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:39:43 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:39:49 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:39:50 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:39:50 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:40:03 PM swingworker.SWdatabaseSET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:40:03 PM swingworker.SWdatabaseSET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:40:07 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:41:28 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:41:29 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:41:30 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:41:36 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:41:36 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:41:36 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:41:52 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 2
+mar 21, 2018 8:41:52 PM swingworker.SWdatabaseSET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:41:53 PM swingworker.SWdatabaseSET doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:42:25 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:42:26 PM panels.PannelMenu actionPerformed
+INFO: Zakonczono gre
+mar 21, 2018 8:44:33 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 8:44:33 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:44:35 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:44:39 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:44:40 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:44:40 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:44:51 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 2
+mar 21, 2018 8:44:52 PM swingworker.SWdatabaseWIN doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:44:52 PM swingworker.SWdatabaseLOSE doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:45:18 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:47:20 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 8:47:30 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:47:30 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:47:31 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 8:47:46 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 21, 2018 8:47:46 PM swingworker.SWdatabaseWIN doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:47:46 PM swingworker.SWdatabaseLOSE doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 8:48:03 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 8:48:03 PM panels.PannelMenu actionPerformed
+INFO: Zakonczono gre
+mar 21, 2018 11:38:49 PM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 21, 2018 11:38:51 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:39:47 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:39:48 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:39:49 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:39:50 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:39:50 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:39:51 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:39:52 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:39:52 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:39:57 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:39:57 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:50:23 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:50:23 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:50:25 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:50:25 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:50:29 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:50:29 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:50:43 PM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 21, 2018 11:50:45 PM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 21, 2018 11:50:47 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 11:51:00 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:00 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:01 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 11:51:15 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 21, 2018 11:51:16 PM swingworker.SWdatabaseWIN doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:16 PM swingworker.SWdatabaseLOSE doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:19 PM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 21, 2018 11:51:22 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:51:24 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 11:51:24 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:25 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:25 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:51:26 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:17 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:55:18 PM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 21, 2018 11:55:24 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:24 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:24 PM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 21, 2018 11:55:35 PM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 1
+mar 21, 2018 11:55:36 PM swingworker.SWdatabaseWIN doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:36 PM swingworker.SWdatabaseLOSE doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:38 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:55:38 PM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 21, 2018 11:55:39 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:39 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:40 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:40 PM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 21, 2018 11:55:48 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:55:49 PM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 21, 2018 11:55:50 PM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 21, 2018 11:55:51 PM panels.PannelMenu actionPerformed
+INFO: Zakonczono gre
+mar 22, 2018 12:27:31 AM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 22, 2018 12:27:32 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:27:36 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:27:37 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:27:39 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:27:39 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:27:40 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:27:40 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:27:41 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:27:42 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:27:45 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:27:45 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:27:49 AM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 22, 2018 12:27:51 AM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 22, 2018 12:35:33 AM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 22, 2018 12:35:34 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:35:36 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:35:36 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:35:39 AM actions.ActionLanguage actionPerformed
+INFO: Zmieniono jezyk
+mar 22, 2018 12:35:39 AM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 22, 2018 12:35:48 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:35:49 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:35:49 AM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 22, 2018 12:36:56 AM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 2
+mar 22, 2018 12:36:57 AM swingworker.SWdatabaseWIN doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:36:57 AM swingworker.SWdatabaseLOSE doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:37:40 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:37:41 AM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 22, 2018 12:37:48 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:37:49 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:37:49 AM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 22, 2018 12:39:06 AM panels.PannelGame paint
+INFO: Zanotowano remis
+mar 22, 2018 12:39:07 AM swingworker.SWdatabaseDRAW doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:39:07 AM swingworker.SWdatabaseDRAW doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 12:39:24 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:39:32 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:39:32 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:39:33 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 12:39:34 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 12:39:36 AM panels.PannelMenu actionPerformed
+INFO: Zakonczono gre
+mar 22, 2018 1:04:18 AM pentago.edu.wat.pl.ZMain main
+INFO: Poczatek programu
+mar 22, 2018 1:04:19 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 1:04:32 AM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 22, 2018 1:04:33 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:04:33 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:04:33 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:04:34 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:04:36 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 1:04:37 AM actions.ActionSkin actionPerformed
+INFO: Zmieniono skina
+mar 22, 2018 1:04:37 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 1:04:39 AM frames.FrameHelp <init>
+INFO: Uruchomiono help
+mar 22, 2018 1:04:40 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 1:04:41 AM frames.FrameLogin <init>
+INFO: Uruchomiono ekran logowania
+mar 22, 2018 1:04:46 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:04:47 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:04:47 AM frames.FrameGame <init>
+INFO: Rozpoczeto gre
+mar 22, 2018 1:05:07 AM panels.PannelGame paint
+INFO: Zanotowano wygrana gracza 2
+mar 22, 2018 1:05:08 AM swingworker.SWdatabaseWIN doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:05:08 AM swingworker.SWdatabaseLOSE doInBackground
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:05:11 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 1:05:17 AM frames.FrameScores <init>
+INFO: Uruchomiono wyniki
+mar 22, 2018 1:05:17 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:05:17 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:05:17 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:05:18 AM database.ZDataBase connect
+INFO: Polaczono sie z Baza Danych
+mar 22, 2018 1:05:20 AM frames.FrameMenu <init>
+INFO: Uruchomiono menu
+mar 22, 2018 1:05:22 AM panels.PannelMenu actionPerformed
+INFO: Zakonczono gre

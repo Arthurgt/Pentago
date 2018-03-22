@@ -5,6 +5,10 @@ import java.awt.Point;
 
 import javax.swing.JButton;
 
+import exceptions.ExceptionNotMove;
+import exceptions.ExceptionNotRotate;
+import exceptions.ZStanGry;
+
 public final class ZGame 
 {
 	    
@@ -223,7 +227,7 @@ public final class ZGame
 		}
 	}
 	
-	public boolean[][] obrot(boolean P[][])
+	public static boolean[][] obrot(boolean P[][])
 	{
 		boolean N[][] = new boolean[3][3];
 		boolean K[] = new boolean[3];
@@ -239,7 +243,7 @@ public final class ZGame
 		return N;
 	}
 	
-	public Color[][] obrot1(Color P[][])
+	public static Color[][] obrot1(Color P[][])
 	{
 		Color N[][] = new Color[3][3];
 		Color K[] = new Color[3];
