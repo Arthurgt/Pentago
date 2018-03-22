@@ -14,6 +14,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 
+import properties.CProperties;
+
 public class MyJlabel2 extends JLabel
 {
 	public MyJlabel2(String label) 
@@ -27,7 +29,7 @@ public class MyJlabel2 extends JLabel
 			e.printStackTrace();
 		}
         super.setIcon(new ImageIcon(myImage));
-        Dimension size = new Dimension(100,60);
+        Dimension size = new Dimension(CProperties.getbuttwidth(),CProperties.getbuttheight());
         setPreferredSize(size);
     }
 }

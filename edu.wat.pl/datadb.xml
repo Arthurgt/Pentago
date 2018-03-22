@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+<class>
+   <base>
+      <url>jdbc:postgresql://localhost:5432/Pentago</url>
+      <user>postgres</user>
+      <password>postgres</password>
+   </base>
+</class>

@@ -4,36 +4,35 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 
-import events.InterfejsUstawieniaGry;
-import events.zWyborTla;
-import pentago.edu.wat.pl.ZMain;
-import pentago.edu.wat.pl.ZTlo;
-import properties.ZProperties;
+import events.InterfaceSettings;
+import events.IsListener;
+import pentago.edu.wat.pl.CMain;
+import pentago.edu.wat.pl.CSettingsChanger;
 
 public class ActionLanguage extends AbstractAction 
 {
-	public String jezyk;
+	public String language;
 
 	public ActionLanguage(String text)
 	{
 		super(text);
-		this.jezyk=text;
+		this.language=text;
 	}
 	
 	public void actionPerformed(ActionEvent e) 
 	{
-		ZTlo happy = new ZTlo();
-        InterfejsUstawieniaGry  sky   = new zWyborTla();
-        happy.addMoodListener( sky );
-		if(jezyk=="Polski" || jezyk=="Polish")
+		CSettingsChanger change = new CSettingsChanger();
+        InterfaceSettings  is   = new IsListener();
+        change.addMoodListener( is );
+		if(language=="Polski" || language=="Polish")
 		{
-			happy.polski();
+			change.polish();
 		}
-		else if(jezyk=="Angielski" || jezyk=="English")
+		else if(language=="Angielski" || language=="English")
 		{
-			happy.angielski();
+			change.english();
 		}
-		ZMain.log.info("Zmieniono jezyk");
+		CMain.log.info("Language changed");
 	}
 
 }

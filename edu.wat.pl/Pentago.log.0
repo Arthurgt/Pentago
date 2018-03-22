@@ -860,3 +860,99 @@ mar 22, 2018 1:05:20 AM frames.FrameMenu <init>
 INFO: Uruchomiono menu
 mar 22, 2018 1:05:22 AM panels.PannelMenu actionPerformed
 INFO: Zakonczono gre
+mar 22, 2018 3:49:44 AM pentago.edu.wat.pl.CMain main
+INFO: Program start
+mar 22, 2018 3:49:45 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:49:48 AM frames.FrameHelp <init>
+INFO: Entered help panel
+mar 22, 2018 3:49:53 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:49:54 AM frames.FrameScores <init>
+INFO: Opened scoreboard
+mar 22, 2018 3:49:54 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:49:55 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:49:55 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:49:55 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:49:56 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:49:58 AM actions.ActionSkin actionPerformed
+INFO: Skin Changed
+mar 22, 2018 3:49:58 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:49:59 AM actions.ActionSkin actionPerformed
+INFO: Skin Changed
+mar 22, 2018 3:49:59 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:50:00 AM actions.ActionSkin actionPerformed
+INFO: Skin Changed
+mar 22, 2018 3:50:01 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:50:03 AM actions.ActionLanguage actionPerformed
+INFO: Language changed
+mar 22, 2018 3:50:05 AM actions.ActionLanguage actionPerformed
+INFO: Language changed
+mar 22, 2018 3:50:06 AM frames.FrameLogin <init>
+INFO: Entered login pannel
+mar 22, 2018 3:50:11 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:50:12 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:50:12 AM database.DataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 22, 2018 3:50:12 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:50:12 AM frames.FrameGame <init>
+INFO: Game started
+mar 22, 2018 3:51:21 AM panels.PanelGame paint
+INFO: Zanotowano win playera 2
+mar 22, 2018 3:51:22 AM swingworker.SWdatabaseWIN doInBackground
+INFO: Connected to the data base
+mar 22, 2018 3:51:22 AM swingworker.SWdatabaseLOSE doInBackground
+INFO: Connected to the data base
+mar 22, 2018 3:51:26 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:51:29 AM frames.FrameLogin <init>
+INFO: Entered login pannel
+mar 22, 2018 3:51:34 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:34 AM database.DataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 22, 2018 3:51:35 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:35 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:35 AM database.DataBase checkName
+INFO: Dodano nowego uzytkownika do bazy
+mar 22, 2018 3:51:35 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:35 AM frames.FrameGame <init>
+INFO: Game started
+mar 22, 2018 3:51:41 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:51:43 AM actions.ActionSkin actionPerformed
+INFO: Skin Changed
+mar 22, 2018 3:51:43 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:51:44 AM frames.FrameScores <init>
+INFO: Opened scoreboard
+mar 22, 2018 3:51:45 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:45 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:46 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:46 AM database.DataBase connect
+INFO: Connected to the Data Base
+mar 22, 2018 3:51:47 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:51:48 AM frames.FrameLogin <init>
+INFO: Entered login pannel
+mar 22, 2018 3:51:49 AM frames.FrameMenu <init>
+INFO: Entered menu
+mar 22, 2018 3:51:49 AM panels.PanelMenu actionPerformed
+INFO: Game Ended

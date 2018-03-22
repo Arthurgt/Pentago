@@ -6,12 +6,12 @@ import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import javax.swing.JFrame;
 
-import events.InterfejsUstawieniaGry;
-import events.zWyborTla;
+import events.InterfaceSettings;
+import events.IsListener;
 import frames.FrameMenu;
-import pentago.edu.wat.pl.ZMain;
-import pentago.edu.wat.pl.ZTlo;
-import properties.ZProperties;
+import pentago.edu.wat.pl.CMain;
+import pentago.edu.wat.pl.CSettingsChanger;
+import properties.CProperties;
 
 public class ActionSkin extends AbstractAction 
 {
@@ -19,35 +19,35 @@ public class ActionSkin extends AbstractAction
 	
 	public ActionSkin()
 	{
-		i = ZProperties.geti();
+		i = CProperties.geti();
 	}
 	
 	public void actionPerformed(ActionEvent e) 
 	{
-		ZTlo happy = new ZTlo();
-        InterfejsUstawieniaGry  sky   = new zWyborTla();
-        happy.addMoodListener( sky );
-		ZMain.log.info("Zmieniono skina");
+		CSettingsChanger sc = new CSettingsChanger();
+        InterfaceSettings  is   = new IsListener();
+        sc.addMoodListener( is );
+		CMain.log.info("Skin Changed");
 		if(i==2)
 		{
-			happy.black();
-			happy.metal();
-			happy.pentago();
-			ZProperties.saveProperties("i","0");
+			sc.black();
+			sc.metal();
+			sc.pentago();
+			CProperties.saveproperties("i","0");
 		}
 		else if(i==0)
 		{
-			happy.green();
-			happy.system();
-			happy.nature();
-			ZProperties.saveProperties("i","1");
+			sc.green();
+			sc.system();
+			sc.nature();
+			CProperties.saveproperties("i","1");
 		}
 		else if(i==1)
 		{
-			happy.pink();
-			happy.windows();
-			happy.lake();
-			ZProperties.saveProperties("i","2");
+			sc.pink();
+			sc.windows();
+			sc.lake();
+			CProperties.saveproperties("i","2");
 		}
 	}
 }

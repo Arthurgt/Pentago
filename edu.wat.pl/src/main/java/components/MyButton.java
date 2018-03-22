@@ -11,12 +11,14 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
+import properties.CProperties;
+
 public class MyButton extends JButton 
 {
     public MyButton(String label) 
     {
         super(label);
-        Dimension size = new Dimension(100,60);
+        Dimension size = new Dimension(CProperties.getbuttwidth(),CProperties.getbuttheight());
         setPreferredSize(size);
         setContentAreaFilled(false);
     }

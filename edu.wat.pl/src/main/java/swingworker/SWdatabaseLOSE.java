@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 import javax.swing.SwingWorker;
 
-import pentago.edu.wat.pl.ZMain;
-import xml.ZxmlParser;
+import pentago.edu.wat.pl.CMain;
+import xml.XmlParser;
 
 public class SWdatabaseLOSE extends SwingWorker<Connection, Object>
 {
@@ -28,16 +28,16 @@ public class SWdatabaseLOSE extends SwingWorker<Connection, Object>
 	protected Connection doInBackground() throws Exception 
 	{
 		//lista.clear();
-		ZxmlParser.Parse();
-	 	url = ZxmlParser.getUrl();
-	 	user = ZxmlParser.getUser();
-	 	password = ZxmlParser.getPassword();
+		XmlParser.Parse();
+	 	url = XmlParser.getUrl();
+	 	user = XmlParser.getUser();
+	 	password = XmlParser.getPassword();
 
         Connection conn = null;
         try 
         {
             conn = DriverManager.getConnection(url, user, password);
-            ZMain.log.info("Polaczono sie z Baza Danych");
+            CMain.log.info("Connected to the data base");
         } 
         catch (SQLException e) 
         {
